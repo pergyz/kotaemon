@@ -144,7 +144,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
 sh Anaconda3-2024.06-1-Linux-x86_64.sh
 
 # optional (setup env)
-conda create -n kotaemon python=3.10
+/home/user/anaconda3/bin/conda create -n kotaemon python=3.10
 conda activate kotaemon
 
 # clone this repo
