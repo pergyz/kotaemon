@@ -140,6 +140,9 @@ We use [GHCR](https://docs.github.com/en/packages/working-with-a-github-packages
 - Clone and install required packages on a fresh python environment.
 
 ```shell
+wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
+sh Anaconda3-2024.06-1-Linux-x86_64.sh
+
 # optional (setup env)
 conda create -n kotaemon python=3.10
 conda activate kotaemon
